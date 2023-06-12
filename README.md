@@ -1,5 +1,9 @@
 # Getting Started with AI-POWERED CHATBOT
 
+## Architecture-diagram(AI-POWERED CHATBOT)
+
+AI-POWERED CHATBOT-img.jpeg
+
 I have shared screenshots of the product kindly check them out below.
 
 1.
