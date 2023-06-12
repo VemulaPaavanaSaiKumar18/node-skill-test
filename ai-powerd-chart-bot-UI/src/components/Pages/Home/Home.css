@@ -1,0 +1,174 @@
+.chatSpace {
+  text-align: center;
+  color: #fff;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.navPromptWrapper {
+  border-bottom: 1px solid #ffffff33;
+  padding: 10px;
+  height: calc(100vh - 330px);
+  overflow-y: auto;
+}
+
+.sideMenu {
+  width: 244px;
+  padding: 8px;
+  background-color: #202022;
+  overflow-y: scroll;
+}
+.sideMenuButton {
+  position: relative;
+  border: 1px solid hsl(0deg 0% 100% / 20%);
+  border-radius: 5px;
+  padding: 10px;
+  text-align: left;
+  color: #fff;
+  margin-top: 1rem;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  transition: all 0.25s ease;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+}
+
+.trash-can {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+}
+
+.logout {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.navPrompt:hover,
+.sideMenuButton:hover {
+  cursor: pointer;
+  background-color: hsla(240, 9%, 59%, 0.1);
+}
+.sideMenuButton span {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 6px;
+  padding-right: 10px;
+}
+.chatBox {
+  flex: 1;
+  background-color: #353540;
+  position: relative;
+  line-height: 24px;
+  color: #d1d5db;
+  font-size: 16px;
+}
+
+.chatLogWrapper {
+  height: 80vh;
+  overflow-y: auto;
+}
+
+/* adding custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #575969;
+}
+::-webkit-scrollbar-thumb {
+  background-clip: content-box;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px 2px;
+  background-color: #202022;
+}
+
+::-moz-scrollbar {
+  width: 8px;
+  background-color: #575969;
+}
+::-moz-scrollbar-thumb {
+  background-clip: content-box;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px 2px;
+  background-color: #202022;
+}
+
+.chatPromptWrapper {
+  max-width: 800px;
+  margin: auto;
+  padding: 24px;
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  column-gap: 25px;
+}
+
+.botMessageMainContainer {
+  width: 100%;
+  background-color: #444654;
+  position: relative;
+}
+.botMessageWrapper {
+  max-width: 800px;
+  margin: auto;
+  padding: 24px;
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  column-gap: 25px;
+}
+
+.errorMessage {
+  color: #ef4444;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.inputPromptWrapper {
+  margin-top: 40px;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  position: relative;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-height: 200px;
+  height: 55px;
+  background-color: #41414e;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+}
+.inputPrompttTextarea {
+  padding: 10px;
+  flex: 1;
+  resize: none;
+  background-color: #41414e;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  overflow-y: hidden;
+}
+form button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  font-size: 50px;
+  top: -5px;
+  right: 40px;
+  width: 35px;
+  height: 45px;
+}
+
+.inputPromptWrapper {
+  position: absolute;
+}

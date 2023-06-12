@@ -1,0 +1,27 @@
+.signupContainer {
+  background: #4c4f5f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+}
+.signupContainer h1 {
+  color: #fff;
+}
+
+#signupWithGoggle {
+  background: #fff !important;
+  color: #2d333a !important;
+  border: 1px solid #202123 !important;
+  font-size: 18px;
+  display: flex;
+  border-radius: 5px;
+  padding: 12px;
+  column-gap: 20px;
+}
+
+#signupWithGoggle:hover {
+  background-color: rgb(236, 236, 236) !important;
+}
