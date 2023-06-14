@@ -2,29 +2,29 @@
 
 ## Architecture-diagram(AI-POWERED CHATBOT)
 
-AI-POWERED CHATBOT-img.jpeg
+![image](https://github.com/VemulaPaavanaSaiKumar18/node-skill-test/assets/73506478/8b0983bb-b011-482f-9445-8ce444e6e54a)
 
 I have shared screenshots of the product kindly check them out below.
 
 1.
 
-image.png
+![image](https://github.com/VemulaPaavanaSaiKumar18/node-skill-test/assets/73506478/81effadc-d6a5-4fce-b41e-8e6fd37493ec)
 
 2.
 
-image.png
+![image](https://github.com/VemulaPaavanaSaiKumar18/node-skill-test/assets/73506478/fce64b0c-9855-4f94-83d4-5587cb243ce3)
 
 3.
 
-image.png
+![image](https://github.com/VemulaPaavanaSaiKumar18/node-skill-test/assets/73506478/1d370802-6adc-45e9-96b5-d4e68c263bb3)
 
 4.
 
-image.png
+![image](https://github.com/VemulaPaavanaSaiKumar18/node-skill-test/assets/73506478/0352dcc8-9d81-4e85-8c97-65792b3a0404)
 
 5.
 
-image.png
+![image](https://github.com/VemulaPaavanaSaiKumar18/node-skill-test/assets/73506478/e1a74204-c9e6-4fb4-a6a5-483c180cac31)
 
 By clicking "new chat," we can create a new chat.
 
@@ -34,7 +34,7 @@ Click on the delete icon to delete the chat.
 
 ## TEST CASES FOR NODE API
 
-image.png
+![image](https://github.com/VemulaPaavanaSaiKumar18/node-skill-test/assets/73506478/36872344-c648-4094-b808-f23b83c264de)
 
 # SET TO RUN THE PROJECT
 
